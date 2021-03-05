@@ -1,0 +1,1 @@
+﻿Import-Csv "C:\Users\maquino-a\Desktop\users.csv" | Foreach-Object {Get-ADUser -Identity $_.SamAccountName}
