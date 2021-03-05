@@ -2,7 +2,7 @@
 # Language     :  PowerShell
 # Filename     :  resourceReport.ps1
 # Author       :  matthew-git-hub (https://github.com/Matthew-git-hub)
-# Description  :  Queries the target system and sends an email contaitning the free memory and disk space
+# Description  :  Queries the target system and sends an email containing the free memory and disk space
 ###############################################################################################################
 
 $hostname = $hostname = (Get-WmiObject -class Win32_ComputerSystem -Property DNSHostName).DNSHostName | Out-String
