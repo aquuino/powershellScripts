@@ -7,6 +7,3 @@ adScripts : Contains scripts that are used for managing active directory
 windowsScripts : Contains scripts that are used for managing windows
 
 
-# Python
-
-Contains basic python programs
