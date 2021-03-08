@@ -1,6 +1,6 @@
 ﻿Import-Module ActiveDirectory
 # Set the new password
-$newPassword = ConvertTo-SecureString -AsPlainText "Welcome!" -Force
+$newPassword = ConvertTo-SecureString -AsPlainText "PASSWORD" -Force
 # Import users from CSV
 Import-Csv "C:\reset.csv" | ForEach-Object {
 $samAccountName = $_."samAccountName"
