@@ -6,7 +6,7 @@
 
 #Import Credientials from Securestring Text
 
-$username = "SANITIZEDm"
+$username = "SANITIZED"
 $pwdTxt = Get-Content "C:\pass.txt"
 $securePwd = $pwdTxt | ConvertTo-SecureString 
 $credObject = New-Object System.Management.Automation.PSCredential -ArgumentList $username, $securePwd
