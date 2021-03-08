@@ -1,6 +1,5 @@
 #DNS Check - DNS server IP you are checking for
-$dnsCheck = "192.168.23.17"
-$dnsCheck2 ="192.168.23.18"
+$dnsCheck = "IP To check"
 # Hostnames
 $hostname = (Get-WmiObject -class Win32_ComputerSystem -Property DNSHostName).DNSHostName | Out-String
 # DNS Servers
@@ -8,7 +7,7 @@ $dnsServers = Get-DnsClientServerAddress | Select-Object -ExpandProperty ServerA
 
  
 For ($i=0 ; $i -lt $dnsServers.Length; $i++) {
-    if ($dnsServers[$i] -eq $dnsCheck,$dnsCheck2) {
+    if ($dnsServers[$i] -eq $dnsCheck) {
 
         # E-mail Output
 
