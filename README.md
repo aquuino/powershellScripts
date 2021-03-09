@@ -1,9 +1,8 @@
 # Powershell
 
-Contains Powershell scripts that I have either written or copies
-
-adScripts : Contains scripts that are used for managing active directory
-
-windowsScripts : Contains scripts that are used for managing windows
-
-
+Powershell scripts I wrote for fun or to make my job a bit easier
+    
+      
+     
+---
+![Powershell_Logo](https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/Powershell_256.png)
