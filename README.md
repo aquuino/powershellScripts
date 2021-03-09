@@ -1,6 +1,7 @@
 # Powershell
 
-Powershell scripts I wrote for fun or to make my job a bit easier
+ Powershell scripts I wrote for fun or to automate menial tasks
+
 <br/>    
 <br/>      
 <br/>      
