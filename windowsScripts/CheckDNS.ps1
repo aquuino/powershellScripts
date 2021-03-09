@@ -11,7 +11,7 @@ For ($i=0 ; $i -lt $dnsServers.Length; $i++) {
 
         # E-mail Output
 
-        $ToAddress = "SANITIZEDm"
+        $ToAddress = "SANITIZED"
         $FromAddress = "SANITIZED"
         $SMTPServer = "smtp.office365.com"
         $SMTPPort = "587"
