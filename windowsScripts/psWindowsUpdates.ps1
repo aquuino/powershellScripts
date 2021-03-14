@@ -1,7 +1,5 @@
 ﻿#Written by Matthew Aquino - 2020-05-04
- 
 #Performs windows updates
-
 
 Install-Module PSWindowsUpdate
 
