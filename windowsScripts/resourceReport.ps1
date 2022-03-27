@@ -1,7 +1,6 @@
 ###############################################################################################################
 # Language     :  PowerShell
 # Filename     :  resourceReport.ps1
-# Author       :  matthew-git-hub (https://github.com/Matthew-git-hub)
 # Description  :  Queries the target system and sends an email containing the free memory and disk space
 ###############################################################################################################
 
