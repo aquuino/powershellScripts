@@ -1,3 +1,3 @@
 # Powershell
 
-`Stuff I wrote in powershell to make boring tasks easier & faster`
+Small scripts I wrote in Powershell to automate/speed up tasks I did several times a week.
